@@ -12,8 +12,7 @@
             <Image url="@../ressources/logoISN.png" />
          </image>
       </ImageView>
-      <Button layoutX="415.0" layoutY="400.0" mnemonicParsing="false" prefWidth="180" onAction="#pressButtonHelp" style="-fx-background-color: #c4ccd9;" text="Aide" />
-      <Button layoutX="415.0" layoutY="324.0" mnemonicParsing="false" prefWidth="180" onAction="#pressButtonPlay" style="-fx-background-color: #49e0ce;" text="Jouer" />
-      <Button layoutX="415.0" layoutY="470.0" mnemonicParsing="false" prefWidth="180" onAction="#pressButtonLeave" style="-fx-background-color: #febf5c;" text="Quitter" />
+      <Button layoutX="415.0" layoutY="353.0" mnemonicParsing="false" onAction="#pressButtonPlay" prefWidth="180" style="-fx-background-color: #49e0ce;" text="Jouer" />
+      <Button layoutX="415.0" layoutY="439.0" mnemonicParsing="false" onAction="#pressButtonLeave" prefWidth="180" style="-fx-background-color: #febf5c;" text="Quitter" />
    </children>
 </AnchorPane>

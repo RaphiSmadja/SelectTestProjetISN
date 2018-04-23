@@ -15,7 +15,7 @@ public class Main extends Application {
         this.primaryStage = primaryStage;
         root = FXMLLoader.load(getClass().getResource("../views/main.fxml"));
         root.getStylesheets().add(Controller.class.getResource("../style/style.css").toExternalForm());
-        primaryStage.setTitle("Select Text");
+        primaryStage.setTitle("Select Test");
         primaryStage.setScene(new Scene(root, 1024, 768));
         primaryStage.setResizable(false);
         primaryStage.show();

@@ -11,13 +11,14 @@ AnchorPane{
 .label {
     -fx-text-fill: white;
     -fx-font-weight: bold;
-    -fx-font-size: 18px;
+    -fx-font-size: 36px;
+    -fx-font-family: Arial;
 }
 .button {
     -fx-text-fill: white;
     -fx-font-weight: bold;
     -fx-border:none;
-    -fx-background-color: linear-gradient(#49e0ce, #febf5c);
+    -fx-background-color: linear-gradient(#526579, #c4ccd9);
     -fx-alignment: center;
     -fx-background-radius: 10px;
     -fx-font-size: 18px;
@@ -26,12 +27,35 @@ AnchorPane{
 .button:hover {
     -fx-text-fill: black;
 }
-#QuestionNumber {
+#questionNumber {
     -fx-font-family: Zapftig;
-    -fx-font-size: 22px;
-    -fx-text-fill:  #49e0ce;
+    -fx-font-size: 30px;
+    -fx-text-fill:  #febf5c;
 }
-#Question {
-    -fx-font-size: 18px;
-    -fx-text-fill:  black;
+#questionText {
+    -fx-font-size: 20px;
+    -fx-text-fill:  #526579;
+    -fx-font-family: Arial;
+    -fx-text-alignment: center;
+    -fx-width: 470;
+}
+.label#textScore {
+    -fx-text-fill: #526579;
+    -fx-text-size: 36px;
+    -fx-font-family: Zapftig;
+    -fx-text-alignment: center;
+}
+
+.label#numberScore {
+    -fx-text-fill: #526579;
+    -fx-text-size: 28px;
+    -fx-font-family: Zapftig;
+    -fx-text-alignment: center;
+}
+
+.label#conseilleScore{
+    -fx-text-fill: #526579;
+    -fx-text-size: 8px;
+    -fx-font-family: Arial;
+    -fx-text-alignment: center;
 }
