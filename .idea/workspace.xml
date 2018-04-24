@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ISNPROJET/sample/Controller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Controller.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ISNPROJET/sample/Categories.class" afterPath="$PROJECT_DIR$/out/production/ISNPROJET/sample/Categories.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ISNPROJET/sample/Main.class" afterPath="$PROJECT_DIR$/out/production/ISNPROJET/sample/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ISNPROJET/sample/QuestionQCM.class" afterPath="$PROJECT_DIR$/out/production/ISNPROJET/sample/QuestionQCM.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ISNPROJET/sample/Score.class" afterPath="$PROJECT_DIR$/out/production/ISNPROJET/sample/Score.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ISNPROJET/quizz/histoire.txt" afterPath="$PROJECT_DIR$/out/production/ISNPROJET/quizz/histoire.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ISNPROJET/quizz/math.txt" afterPath="$PROJECT_DIR$/out/production/ISNPROJET/quizz/math.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ISNPROJET/views/categories.fxml" afterPath="$PROJECT_DIR$/out/production/ISNPROJET/views/categories.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ISNPROJET/views/main.fxml" afterPath="$PROJECT_DIR$/out/production/ISNPROJET/views/main.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/quizz/histoire.txt" afterPath="$PROJECT_DIR$/src/quizz/histoire.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/quizz/math.txt" afterPath="$PROJECT_DIR$/src/quizz/math.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Categories.java" afterPath="$PROJECT_DIR$/src/sample/Categories.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Main.java" afterPath="$PROJECT_DIR$/src/sample/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/QuestionQCM.java" afterPath="$PROJECT_DIR$/src/sample/QuestionQCM.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Score.java" afterPath="$PROJECT_DIR$/src/sample/Score.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/categories.fxml" afterPath="$PROJECT_DIR$/src/views/categories.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/main.fxml" afterPath="$PROJECT_DIR$/src/views/main.fxml" />
-    </list>
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -79,10 +59,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="QuestionQCM.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuestionQCM.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/QuestionQCM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="593">
               <caret line="109" column="52" lean-forward="false" selection-start-line="109" selection-start-column="52" selection-end-line="109" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -133,6 +113,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISNPROJET.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/OneDrive/Documents/SelectTestProjetISN-master/ISNPROJET.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -262,6 +252,7 @@
         <option value="$PROJECT_DIR$/src/sample/Categories.java" />
         <option value="$PROJECT_DIR$/src/views/main.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$USER_HOME$/OneDrive/Documents/SelectTestProjetISN-master/ISNPROJET.iml" />
       </list>
     </option>
   </component>
@@ -429,7 +420,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Documents/SelectTestProjetISN-master" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -725,7 +716,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2360044" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2360044" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -770,14 +761,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ressources/logoISN.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1137,18 +1120,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Score.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/categories.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -1197,11 +1168,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/QuestionQCM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="593">
           <caret line="109" column="52" lean-forward="false" selection-start-line="109" selection-start-column="52" selection-end-line="109" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive/Documents/SelectTestProjetISN-master/ISNPROJET.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
