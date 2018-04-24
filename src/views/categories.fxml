@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-
-<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.image.Image?>
-<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.Categories" prefHeight="768.0" prefWidth="1024.0">
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Categories">
     <children>
         <ImageView fitHeight="81.0" fitWidth="552.0" layoutX="236.0" layoutY="181.0">
             <image>
                 <Image url="@../ressources/logoISN.png" />
             </image>
         </ImageView>
-        <Button layoutX="415.0" layoutY="320.0" mnemonicParsing="false" prefWidth="180" onAction="#pressButtonMath" style="-fx-background-color: #49e0ce;" text="Mathématiques" />
-        <Button layoutX="415.0" layoutY="400.0" mnemonicParsing="false" prefWidth="180" onAction="#pressButtonAnglais" style="-fx-background-color: #febf5c" text="Anglais" />
-        <Button layoutX="415.0" layoutY="480.0" mnemonicParsing="false" prefWidth="180" onAction="#pressButtonHistoire" style="-fx-background-color: #a8eafa;" text="Histoire" />
-        <Button layoutX="415.0" layoutY="560.0" mnemonicParsing="false" prefWidth="180" onAction="#pressButtonRetour" style="-fx-background-color: #c4ccd9;" text="Retour" />
+        <Button layoutX="415.0" layoutY="320.0" mnemonicParsing="false" onAction="#pressButtonMath" prefWidth="180" style="-fx-background-color: #49e0ce;" text="Mathématiques" />
+        <Button layoutX="415.0" layoutY="400.0" mnemonicParsing="false" onAction="#pressButtonAnglais" prefWidth="180" style="-fx-background-color: #febf5c" text="Anglais" />
+        <Button layoutX="415.0" layoutY="480.0" mnemonicParsing="false" onAction="#pressButtonHistoire" prefWidth="180" style="-fx-background-color: #a8eafa;" text="Histoire" />
+        <Button layoutX="415.0" layoutY="560.0" mnemonicParsing="false" onAction="#pressButtonRetour" prefWidth="180" style="-fx-background-color: #c4ccd9;" text="Retour" />
     </children>
 </AnchorPane>

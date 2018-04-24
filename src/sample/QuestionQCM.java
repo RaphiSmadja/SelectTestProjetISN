@@ -1,33 +1,18 @@
 package sample;
 
-import javafx.animation.*;
-import javafx.beans.property.IntegerProperty;
-import javafx.beans.property.SimpleIntegerProperty;
 import javafx.event.ActionEvent;
-import javafx.event.Event;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.paint.Color;
-import javafx.scene.paint.Paint;
-import javafx.scene.text.Font;
-import javafx.util.Duration;
 
 import java.io.*;
-import java.util.Timer;
-
-import static java.lang.Thread.currentThread;
-import static java.lang.Thread.sleep;
 import static sample.Categories.choix;
 
-/**
- * Created by raphi on 13/04/2018.
- */
 public class QuestionQCM {
-    @FXML
+    @FXML // annotation
     private Label questionNumber;
     @FXML
     private Label questionText;
@@ -47,6 +32,7 @@ public class QuestionQCM {
     private BufferedReader brQ;
     private BufferedReader brR;
     private String[] splitReponse;
+
     public void initialize() throws IOException {
         score = 0;
         numberQuestion = 1;
@@ -122,7 +108,6 @@ public class QuestionQCM {
             buttonReponse1.setText(splitReponse[0]);
             buttonReponse2.setText(splitReponse[1]);
             buttonReponse3.setText(splitReponse[2]);
-
             numberQuestion++;
         } else {
             Main.root = FXMLLoader.load(getClass().getResource("../views/score.fxml"));

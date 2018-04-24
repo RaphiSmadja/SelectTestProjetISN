@@ -2,14 +2,10 @@ package sample;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 
 import java.io.IOException;
 
-/**
- * Created by raphi on 17/04/2018.
- */
 public class Categories {
     public static String choix="";
 
